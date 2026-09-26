@@ -1,0 +1,7 @@
+.ollama/
+flutter/
+android-sdk/
+*.tar.xz
+*.zip
+*.apk
+*.log
