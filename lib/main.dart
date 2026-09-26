@@ -1,12 +1,4 @@
-
-# Tìm dòng api, sửa IP
-# Ctrl+O -> Enter -> Ctrl+X
-
-# Hoặc dùng sed thay nhanh:
-sed -i "s|http://192.168.1.8:11434|http://192.168.1.8:11434|g" lib/main.dart
-
-# Kiểm tra
-grep "api = " lib/main.dartimport 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:flutter_markdown/flutter_markdown.dart';
